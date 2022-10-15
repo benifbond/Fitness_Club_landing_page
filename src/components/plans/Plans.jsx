@@ -9,7 +9,7 @@ function Plans() {
                 <span>YOUR JOURNEY</span>
                 <span className="stroke-text">NOW WITH US</span>
             </div>
-            {/* ========Plans Cards ========= */}
+            {/* ================= Plans Cards ========= */}
             <div className="plans">
                 {plansData.map(({ icon, id, name, price, features }) => {
                     return (
@@ -25,16 +25,14 @@ function Plans() {
                                             <span key={i}>{feature}</span>
                                         </div>)
                                 })}
-
                             </div>
                             <div>
                                 <span>See more benefits -></span>
                             </div>
                             <button className="btn">Join Now</button>
-                        </div>)
+                        </div>
+                    )
                 })
-
-
                 }
             </div>
         </div>
