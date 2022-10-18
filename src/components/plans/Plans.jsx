@@ -4,6 +4,9 @@ import Whitetick from "../../assets/whiteTick.png"
 function Plans() {
     return (
         <div className="plans-container">
+            <div className="blur plans-blur-1"></div>
+            <div className="blur plans-blur-2"></div>
+
             <div className="programs-header" style={{ gap: "2rem" }}>
                 <span className="stroke-text">READY TO START</span>
                 <span>YOUR JOURNEY</span>
@@ -20,9 +23,9 @@ function Plans() {
                             <div className="features">
                                 {features.map((feature, i) => {
                                     return (
-                                        <div className="feature">
+                                        <div className="feature" key={i}>
                                             <img src={Whitetick} alt="whitetick" />
-                                            <span key={i}>{feature}</span>
+                                            <span >{feature}</span>
                                         </div>)
                                 })}
                             </div>
