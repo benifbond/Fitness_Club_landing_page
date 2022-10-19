@@ -21,14 +21,14 @@
     gap: 4rem;
 }
 
-.social-links>img {
+.social-links>a>img {
     width: 2rem;
     height: 2rem;
     cursor: pointer;
 
 }
 
-.logo-footer>img {
+.logo-footer>a>img {
     width: 10rem;
 }
 

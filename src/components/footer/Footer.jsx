@@ -10,9 +10,17 @@ export const Footer = () => {
             <hr />
             <div className="footer">
                 <div className="social-links">
-                    <img src={Github} alt="github" />
-                    <img src={Linkedin} alt="linkedin" />
-                    <img src={Instagram} alt="instagram" />
+                    <a href="https://github.com/benifbond?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        <img src={Github} alt="github" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/onyebueke/" target="_blank" rel="noopener noreferrer">
+                        <img src={Linkedin} alt="linkedin" />
+
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+
+                        <img src={Instagram} alt="instagram" />
+                    </a>
                 </div>
                 <div className="logo-footer">
                     <img src={Logo} alt="logo" />
