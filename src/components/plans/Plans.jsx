@@ -23,7 +23,7 @@ function Plans() {
                             <div className="features">
                                 {features.map((feature, i) => {
                                     return (
-                                        <div className="feature" key={i}>
+                                        <div className="feature" key={i} >
                                             <img src={Whitetick} alt="whitetick" />
                                             <span >{feature}</span>
                                         </div>)

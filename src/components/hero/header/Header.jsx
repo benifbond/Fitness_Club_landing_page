@@ -30,7 +30,7 @@ function Header() {
                     <li>
                         <Link
                             onClick={() => setMenuOpened(false)}
-                            activeClassName="active"
+                            activeclassname="active"
                             to="home"
                             spy={true}
                             smooth={true}> Home</Link></li>
